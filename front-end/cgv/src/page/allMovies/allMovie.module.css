@@ -1,0 +1,68 @@
+
+.container {
+    position: relative;
+    width: 100%;
+    z-index: 7;
+}
+
+.contents {
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+    clear: both;
+    padding-bottom: 50px;
+}
+
+.headBox {
+    position: relative;
+    height: 90px;
+    padding-top: 30px;
+    border-bottom: 3px solid #241d1e;
+}
+
+.headBox h3 {
+    display: inline-block;
+    position: relative;
+    height: inherit;
+    margin: 0;
+    background-image: none;
+    color: #222;
+    font-weight: 500;
+    font-size: 36px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.sortBox {
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    justify-content:space-between
+}
+
+.sortBox .serchBox .btn {
+    height: 55px;
+    margin-left: 10px;
+}
+
+.sortBox select {
+    line-height: 27px;
+    height: 37px;
+    padding: 3px 5px;
+    border: 1px solid #b4b3aa;
+    margin-right: 5px;
+}
+
+.sortBox .btn {
+    line-height: 23px;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.movieListBox {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}

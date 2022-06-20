@@ -1,0 +1,24 @@
+
+.box {
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+.day {
+    width: 100px;
+    height: 60px;
+    color: #717171;
+}
+
+.day span {
+
+}
+
+.day strong {
+    top: 8px;
+    left: 31px;
+    font-family: verdana, sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+}

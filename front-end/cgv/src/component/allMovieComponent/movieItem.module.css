@@ -1,0 +1,75 @@
+
+.itemBox {
+    width: 197px;
+    margin-left: 64px;
+    padding-bottom: 30px;
+}
+
+.imgBox {
+    position: relative;
+    width: 197px;
+    min-height: 272px;
+    margin-bottom: 10px;
+}
+.imgBox .rank {
+    background: #fb4357;
+    display: block;
+    height: 28px;
+    margin-bottom: 4px;
+    color: #ffffff;
+    font-size: 19px;
+    text-align: center;
+    line-height: 28px;
+}
+
+.thumbImg {
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+.thumbImg img {
+    height: 260px;
+    width: 100%;
+}
+
+.contentsBox {
+    height: 93px;
+    font-size: 16px;
+    
+}
+.contentsBox .title {
+    font-size: 15px;
+    display: block;
+    color: #333333;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.contentsBox .score {
+    margin-top: 7px;
+    font-size: 14px;
+}
+.score .percent span {
+    margin-left: 5px;
+}
+
+.contentsBox .openDateBox {
+    margin-top: 3px;
+    height: 13px;
+    color: #666666;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.contentsBox .openDateBox strong {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.contentsBox .reserveLink {
+    display: block;
+    margin-top: 10px;
+    margin-right: 3px;
+}

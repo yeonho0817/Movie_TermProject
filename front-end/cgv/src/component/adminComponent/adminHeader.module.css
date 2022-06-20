@@ -1,0 +1,143 @@
+/* ------------------  header   ----------------------- */
+.header {
+  position: relative;
+  z-index: 101;
+}
+
+.header .contents {
+  width: 980px;
+  margin: 0 auto;
+}
+
+/* ------------------  headerContent   ----------------------- */
+.headerContent {
+  margin-bottom: 50px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+/* ------------------  Contents   ----------------------- */
+.headerContent .contents {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 6px 25px 5px;
+  background-color: #fff;
+}
+
+.contents h1 {
+  display: inline-flex;
+  align-items: flex-end;
+  height: 53px;
+}
+
+.contents h1 .link {
+  display: block;
+  float: left;
+  height: 100%;
+}
+
+.contents h1 .link img {
+  display: block;
+  width: auto;
+  height: 100%;
+  object-fit: contain;
+}
+
+.contents h1 span {
+  font-weight: 300;
+  font-size: 16px;
+  color: #222;
+  letter-spacing: 0.313em;
+  line-height: 1.5em;
+}
+
+.memberInfo {
+  display: flex;
+  align-items: center;
+}
+
+.memberInfo li {
+  list-style: none;
+  margin-left: 44px;
+  margin-top: 2px;
+}
+
+.memberInfo li .link {
+  display: block;
+  position: relative;
+  padding-bottom: 19px;
+}
+
+.memberInfo li .link img {
+  width: 36px;
+  height: 36px;
+  vertical-align: middle;
+}
+
+.memberInfo li .link span {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  font-size: 13px;
+  color: #666;
+  line-height: 1.462em;
+  white-space: nowrap;
+  transform: translate(-50%, 0);
+}
+
+/* ------------------  NAV   ----------------------- */
+
+.nav {
+  position: absolute;
+  left: 0;
+  top: 113px;
+  width: 100%;
+  padding: 5px 0;
+  background-color: #fff;
+}
+
+/* .nav:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #a58e8e;
+} */
+
+.nav:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 49px;
+  width: 100%;
+  height: 1px;
+  background-color: #fb4357;
+}
+
+.nav .contents {
+  position: relative;
+}
+
+.navMenu {
+  display: inline-flex;
+}
+
+.navMenu > li:first-child {
+  width: 137px;
+}
+
+.nav_menu > li {
+  width: 162px;
+  padding: 20px 0;
+}
+
+.navMenu > li > h2 > .link {
+  font-weight: 700;
+  font-size: 16px;
+  color: #222;
+  line-height: 1.5em;
+}

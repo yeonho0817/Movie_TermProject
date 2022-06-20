@@ -1,0 +1,33 @@
+
+.timeBox {
+    position: relative;
+    height: 25px;
+    line-height: 25px;
+    padding-bottom: 9px;
+    width: 120px;
+}
+
+.on:hover {
+    box-sizing: border-box;
+    border: 3px solid #f11313;
+}
+
+.time span {
+    border: 1px solid #5c5c5c;
+    margin: 1px;
+    line-height: 19px;
+}
+
+.seleted {
+    background-color: black;
+    color: white;
+}
+
+.closed{
+    opacity: 0.4;
+    background-color: rgb(133, 130, 130);
+}
+
+.on {
+    cursor: pointer;
+}

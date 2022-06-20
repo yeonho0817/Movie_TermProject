@@ -1,0 +1,36 @@
+.admin_container {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  margin-top: 50px;
+}
+
+.admin_container h1 {
+  width: 100%;
+
+  text-align: center;
+  font-size: 3rem;
+}
+
+.admin_container h3 {
+  width: 100%;
+
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.sale_policy_container {
+  display: block;
+
+  text-align: center;
+
+  margin: auto;
+  margin-top: 150px;
+}
+
+.screenSchedlule_container {
+  margin: 40px auto;
+  text-align: center;
+}

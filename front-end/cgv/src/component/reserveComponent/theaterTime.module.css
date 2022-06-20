@@ -1,0 +1,20 @@
+
+.theater {
+    width: 306px;
+    border-bottom: solid 2px #cfcdc3;
+}
+
+.floor {
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.seatCount {
+    color: #666;
+    font-size: 12px;
+}
+
+.titmeTableBox{
+    display: flex;
+}

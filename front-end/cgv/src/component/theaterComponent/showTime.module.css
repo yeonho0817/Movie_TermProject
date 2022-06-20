@@ -1,0 +1,23 @@
+
+.box {
+    margin-top: 10px;
+    padding-top: 10px;
+
+}
+
+.hall {
+    display: flex;
+    flex-direction: column;
+}
+
+.infoHall ul {
+    display: flex;
+    margin-bottom: 10px;
+}
+.infoHall ul li {
+    font-weight: 600;
+}
+
+.timeTable{
+    display: flex;
+}

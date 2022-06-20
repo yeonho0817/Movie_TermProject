@@ -1,0 +1,189 @@
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 996px;
+    z-index: 1;
+}
+
+.step {
+    position: relative;
+    width: 996px;
+    background-color: #F2F0E4;
+}
+
+.step1 {
+    height: 595px;
+    display: block;
+    background-color: #d4d3c9;
+}
+
+.movieListBox  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.movieListBox .movieItem {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+.movieListBox .selected {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    background-color: #656466;
+    color: white;
+}
+
+
+.section {
+    position: relative;
+    float: left;
+    height: 100%;
+    margin-left: 2px;
+    background-color: #f2f0e5;
+    overflow: hidden;
+}
+
+.sectionMovie,
+.sectionTime {
+    width: 320px;
+}
+
+.head {
+    position: relative;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    background-color: #333333;
+}
+
+.head h3 {
+    font-weight: bold;
+    color: white;
+}
+
+.timeOption {
+    width: 270px;
+    height: 23px;
+    margin-left: 20px;
+    margin-top: 19px;
+    border-bottom: solid 4px #cfcdc3;
+}
+
+.timeListBox {
+    display: flex;
+    flex-direction: column;
+    width: 316px;
+    height: 88%;
+    margin-left: 20px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.sectionBtn {
+    width: 350px;
+}
+.sectionBtn .body {
+    height: 100%;
+}
+.seatBtnBox {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seatBtn {
+    border: 1px solid #a3a0a7;
+    background-color: #807e81 !important;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.seatBtnOn{
+    border: 1px solid #c22121;
+    background-color: #c22121 !important;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.sectionSeat {
+    width: 696px;
+}
+
+.seatWrap{
+    padding: 10px;
+}
+.seatWrap span {
+    font-size: 24px;
+    padding: 10px;
+}
+
+.seatList {
+    display: flex;
+}
+.seatList li {
+    list-style: none;
+    box-sizing: border-box;
+    border: 1px solid #c22121;
+    padding: 5px;
+    margin-right: 5px;
+    height: 60px;
+}
+
+.seatList .disable {
+    background-color: #656466;
+}
+.seatList .active {
+    cursor: pointer;
+}
+.seatList .active:hover {
+    font-weight: bold;
+    box-sizing: border-box;
+    border: 3px solid #c22121;
+}
+
+.sectionSeat .peopleBox,
+.sectionBook .priceBox{
+    height: 55px;
+    padding: 15px 10px;
+    display: flex;
+    border-bottom: 3px solid #000;
+}
+.sectionSeat .peopleBox h2 ,
+.sectionBook .priceBox h2{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.seatReset {
+    margin-left: 30px;
+    border: 1px solid rgb(248, 41, 41);
+    color: white;
+    background-color: rgb(167, 19, 142);
+    border-radius: 5px;
+    padding: 2px;
+    cursor: pointer;
+}
+.seatReset:hover {
+    background-color: rgb(47, 119, 177);
+    border: 1px solid rgb(47, 119, 177);
+}
+
+.sectionBook {
+    width: 294px;
+}
+
+.sectionBook .lastBtn {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

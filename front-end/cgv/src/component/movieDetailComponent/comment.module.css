@@ -1,0 +1,32 @@
+.itemBox {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 30px;
+    border: 1px solid #000;
+    border-radius: 15px;
+  }
+  
+  .bottom {
+    display: flex;
+  }
+  
+  .likeBtn {
+    cursor: pointer;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .likeBtn span {
+    margin-left: 5px;
+  }
+  
+  .editBox {
+    position: relative;
+    text-align: right;
+    /* top: 0px; */
+    /* left: 300px; */
+  }
+  

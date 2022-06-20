@@ -1,0 +1,123 @@
+.movieChartBox {
+    clear: none;
+    float: none;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(232, 232, 232, 0.37));
+    
+}
+
+.movieChartBox .contents {
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 30px 60px;
+}
+
+.movieChartBox .contents .tabBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.movieChartBox .contents .tabBox .tab {
+    display: inline-flex;
+}
+
+.tabBox .tab h3{
+    height: auto;
+    margin: 0;
+    line-height: 1em;
+    background-image: none;
+    text-align: center;
+    font-weight: 500;
+}
+
+.tabTitle {
+    font-weight: 700;
+    color: #222;
+    font-size: 26px;
+    line-height: 1.423em;
+}
+
+.viewAll {
+    padding: 4px 32px 4px 15px;
+    font-size: 14px;
+    color: #222;
+    line-height: 1.429em;
+    background: transparent url(../../../public/images/arrowR_8x13.png) calc(100% - 7px) center/8px 13px scroll no-repeat;
+    border: 1px solid #e2e2e2;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 0 rgb(0 0 0 / 5%);
+}
+
+.movieCharBox {
+    overflow: visible;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    z-index: 1;
+}
+
+.movieCharBox .swipBox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+}
+
+.btnNext {
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
+    overflow: hidden;
+    right: -20px;
+    top: calc(50% - 26px);
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    font-size: 0;
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px 0 rgb(0 0 0 / 20%);
+}
+.btnNext::after {
+    content: '';
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.8) url(../../../public/images/arrowL.png) center/9px 13px scroll no-repeat;
+    transform: rotate(-180deg);
+}
+
+.btnPrev {
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+    left: -20px;
+    top: calc(50% - 26px);
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    font-size: 0;
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px 0 rgb(0 0 0 / 20%);
+}
+
+.btnPrev::after {
+    content: '';
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.8) url(../../../public/images/arrowL.png) center/9px 13px scroll no-repeat;
+}

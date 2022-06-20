@@ -1,0 +1,14 @@
+
+.container {
+    position: relative;
+    width: 100%;
+    
+}
+
+.contents {
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+    clear: both;
+    padding-bottom: 50px;
+}

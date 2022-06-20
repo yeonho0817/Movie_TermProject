@@ -1,0 +1,46 @@
+.box {
+    position: relative;
+    width: 100px;
+    height: 70px;
+    margin-right: 15px;
+    padding-top: 15px;
+    border: 2px solid #cbcabe;
+    border-radius: 15px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.on:hover {
+    font-weight: bold;
+    border: 3px solid #f33d98;
+}
+
+.time {
+    display: block;
+    font-family: verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.seat {
+    color: #2275a4 !important;
+    font-weight: 500;
+    font-size: 13px;
+
+}
+
+.sale_icon {
+    position: absolute;
+    top: 0px;
+    left: 2px;
+  }
+
+  .closed {
+    opacity: 0.4;
+    background-color: rgb(177, 174, 174);
+  }
+
+  .on {
+      cursor: pointer;
+  }

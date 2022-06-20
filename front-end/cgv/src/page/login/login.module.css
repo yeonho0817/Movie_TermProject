@@ -1,0 +1,30 @@
+
+.container {
+    position: relative;
+    width: 100%;
+    z-index: 7;
+}
+
+.contents {
+    clear: both;
+    padding-bottom: 50px;
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.loginWrap {
+    position: relative;
+    padding: 30px 30px 0;
+}
+
+.loginBox {
+    padding: 30px 0 0 132px;
+    border-bottom: 2px solid #898987;
+    height: 266px;
+}
+
+.inputBox {
+    margin-bottom: 30px;
+    width: 400px;
+}

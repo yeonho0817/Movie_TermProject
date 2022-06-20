@@ -1,0 +1,41 @@
+.container {
+    border: 3px solid rgb(22, 163, 40);
+    margin: 10px 0;
+}
+
+.box {
+    display: flex;
+}
+
+.imgBox {
+    width: 120px;
+    height: 150px;
+}
+
+.imgBox img {
+    width: 100%;
+    height: 100%;
+}
+
+.infoBox {
+    padding: 10px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list .title {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.list li {
+    padding: 5px;
+}
+
+.btnBox {
+    display: flex;
+    justify-content:space-around;
+}

@@ -1,0 +1,46 @@
+.container {
+    position: relative;
+    width: 100%;
+    z-index: 7;
+}
+
+.contents {
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+    clear: both;
+    padding-bottom: 50px;
+}
+.main {
+    position: relative;
+    width: 800px;
+
+}
+
+.scheduleBox {
+    width: 100%;
+    padding: 30px 0;
+    border-bottom: 3px solid #241d1e;
+    
+}
+
+.slider {
+    overflow: visible;
+    position: relative;
+    height: 48px;
+    padding: 12px 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.slider ul {
+    display: flex;
+    width: 800px;
+    height: 110px;
+}
+
+
+
+.timeTableBox{
+
+}

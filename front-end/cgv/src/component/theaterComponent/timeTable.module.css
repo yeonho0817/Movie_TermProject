@@ -1,0 +1,17 @@
+
+.cotainer {
+    padding: 40px;
+}
+
+
+
+.title {
+    margin-right: 5px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.infoMovie span {
+    padding: 0 5px;
+}

@@ -1,0 +1,105 @@
+.container {
+    height: 450px;
+    margin-top: 25px;
+  }
+  
+  .infoBox {
+    width: 882px;
+    height: 250px;
+    padding: 60px 40px 0 58px;
+    background: url(../../../public/images/bg_mycgv_info.gif) no-repeat 0 0;
+  }
+  
+  .userInfo {
+    display: inline-block;
+  }
+  
+  .userInfo .imgBox {
+    width: 135px;
+    height: 135px;
+  }
+  
+  .userInfo .imgBox .thumbImg {
+    display: block;
+    width: 135px;
+    height: 135px;
+    background: url(../../../public/images/bg_photocircle03.png) 0 0 no-repeat;
+  }
+  
+  .userInfo .imgBox .thumbImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .contentsBox {
+    margin-left: 30px;
+    width: 100%;
+  }
+  
+  .contentsBox > * {
+    display: inline-block;
+    margin-right: 8px;
+    color: #342929;
+    font-weight: 500;
+  }
+  
+  .nameBox {
+    width: 482px;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e1e1e1;
+  }
+  
+  .nameBox strong {
+    font-size: 29px;
+    line-height: 32px;
+  }
+  
+  .reserveBox {
+    padding-top: 25px;
+    margin-top: 25px;
+  }
+  
+  .myReserveHead {
+    overflow: hidden;
+    position: relative;
+    line-height: 34px;
+  }
+  
+  .myReserveHead h3 {
+    float: left;
+    height: 34px;
+    margin: 0;
+    background-image: none;
+    color: #222;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 34px;
+    text-align: left;
+  }
+  
+  .myReserveHead p {
+    float: left;
+    margin-left: 5px;
+  }
+  
+  .myReserveHead .link {
+    margin-left: 10px;
+  }
+  
+  .reservedListBox {
+    width: 800px;
+    border: 1px solid #656560;
+    padding: 30px;
+  }
+  
+  .userBasicInfo {
+    width: 100%;
+    margin-left: 50px;
+  }
+  
+  .userBasicInfo h2 {
+    margin-bottom: 10px;
+  }
+  
